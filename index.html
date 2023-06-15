@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .outfit-caption {
+      font-size: 12px;
+      text-align: center;
+      margin-top: 5px;
+    }
+  </style>
+  <style>
+    .recommendations {
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: flex-start;
+      overflow-x: auto;
+    }
+  
+    .recommendations img {
+      width: auto;
+      max-width: 100%;
+      height: auto;
+      margin: 10px;
+      border-radius: 4px;
+    }
+  </style>
+  <style>
+    .advertisements img {
+      width: auto;
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+  <style>
+    @media (max-width: 768px) {
+      .recommendations img {
+        flex: 0 0 calc(33.333% - 20px);
+        max-width: calc(33.333% - 20px);
+      }
+    }
+  </style>
+  <style>
+    .article-recommendations img {
+      width: auto;
+      max-width: 100%;
+      height: auto;
+      margin: 10px;
+      border-radius: 4px;
+      max-height: 250px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="#" class="main-link">WOMEN</a>
+  </header>
+  
+  <section class="advertisements">
+    <a href="https://monochrome.co.kr/">
+      <img src="./advertisement1.png" alt="Advertisement 1">
+    </a>
+    <a href="https://flowersonyou.co.kr/">
+      <img src="./advertisement2.png" alt="Advertisement 2">
+    </a>
+    <a href="https://www.kolonmall.com/ARCHIVEPKE?utm_source=google_pc&utm_campaign=cpc&utm_medium=KM_EK_search&utm_content=63919407730&utm_term=%EC%95%84%EC%B9%B4%EC%9D%B4%EB%B8%8C%EC%95%B1%ED%81%AC&gclid=Cj0KCQjw7aqkBhDPARIsAKGa0oJKaI6L12JEih20ofoveHU48vxacGQ5DZlbmu3VPnv_JvpnK5w_IEAaAu_HEALw_wcB">
+      <img src="./advertisement3.png" alt="Advertisement 3">
+    </a>
+  </section>
+  
+  <section class="categories">
+    <button class="category-button">APPAREL</button>
+    <button class="category-button">BAG</button>
+    <button class="category-button">SHOES</button>
+    <button class="category-button">ACC</button>
+    <button class="category-button">LUXURY</button>
+    <button class="category-button">ACTIVE</button>
+  </section>
+  
+  <section class="recommendations">
+    <img src="./outfit1.png" alt="Outfit 1">
+    <img src="./outfit2.png" alt="Outfit 2">
+    <img src="./outfit3.png" alt="Outfit 3">
+    <img src="./outfit4.png" alt="Outfit 4">
+    <img src="./outfit5.png" alt="Outfit 5">
+  </section>
+  
+  <section class="article-recommendations">
+    <img src="./article1.png" alt="Article 1">
+    <img src="./article2.png" alt="Article 2">
+    <img src="./article3.png" alt="Article 3">
+  </section>
+</body>
+</html>
